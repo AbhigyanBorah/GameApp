@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 16,
-        marginTop: 36,
+        marginTop: 15,
         marginHorizontal: 24,
         borderRadius: 8,
         backgroundColor: Colors.plumDarker,

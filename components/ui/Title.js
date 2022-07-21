@@ -16,7 +16,11 @@ const styles = StyleSheet.create({
         color: Colors.plumDark,
         textAlign: 'center',
         borderWidth: 3,
+        // borderWidth: Platform.OS==='android'?2:0,
+        // borderWidth: Platform.select({ios:0,android:2}),
         borderColor: Colors.plumDark,
         padding: 12,
+        maxWidth: '80%',
+        marginTop: 32
     }
 });
